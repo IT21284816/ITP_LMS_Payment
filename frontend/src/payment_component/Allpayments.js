@@ -58,6 +58,7 @@ export default function Allpayments() {
         setSearchInput(searchval)
     }
 
+    //Generate report
     const generatePDF = () => {
         // create new PDF object
         const doc = new jsPDF();
