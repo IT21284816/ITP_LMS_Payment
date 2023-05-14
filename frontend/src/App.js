@@ -7,6 +7,7 @@ import Add from './payment_component/Add';
 import Edit from './payment_component/Edit';
 import Home from './payment_component/Home';
 import Success from './payment_component/Success';
+import Report_generate from './payment_component/Report_generate';
 function App() {
   return (
   <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
           <Route  path="/view/:id" element={<View />} />
           <Route  path="/edit/:id" element={<Edit />} />
           <Route  path='/success' element={<Success />} />
+          <Route  path='/check' element={<Report_generate/>}/>
           
           
 
