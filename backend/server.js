@@ -71,7 +71,7 @@ app.post('/payment', function(req, res){
 		}); 
 	}) 
 	.then((charge) => { 
-		res.redirect(`http://localhost:3000/`) // If no error occurs 
+		res.redirect(`http://localhost:3000/success`) // If no error occurs 
 	}) 
 	.catch((err) => { 
 		res.send(err)	 // If some error occurs 

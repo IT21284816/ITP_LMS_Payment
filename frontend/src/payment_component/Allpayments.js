@@ -64,14 +64,14 @@ export default function Allpayments() {
         const doc = new jsPDF();
     
         // set company name
-        const companyName = 'Company Name';
+        const companyName = 'INSTITUTE OF ROVISTA';
         // set current date and time
         const today = new Date();
         const date = today.toLocaleDateString();
         const time = today.toLocaleTimeString();
     
         // add company name and date/time to PDF
-        doc.text(`${companyName}\nGenerated on: ${date} at ${time}`, 14, 20);
+        doc.text(`${companyName}\nReport Generated on: ${date} at ${time}`, 14, 20);
     
         // add table data to PDF
         doc.autoTable({
