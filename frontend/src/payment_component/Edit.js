@@ -133,7 +133,7 @@ export default function Edit() {
 
     return (
         <div className='container mt-5'>
-            <h4>Edit Student Information</h4>
+            <h4>Edit Payment Information</h4>
             <div className='underline1'></div>
             <form className='mt-5 shadow p-5 w-75'>
                 <div className="mb-3">
@@ -152,7 +152,7 @@ export default function Edit() {
                     onChange={setstud} name="contact" value={inputdata.contact}/>
                 </div>
                 <div className='d-flex'>
-                         <button className='btn btn-primary' onClick={updatestud}>update Student</button>
+                         <button className='btn btn-primary' onClick={updatestud}>Update</button>
                          <ToastContainer />
                          <NavLink className='btn btn-primary ms-auto' to="/allpayments">Back to Home</NavLink>
                 </div>
